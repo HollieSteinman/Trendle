@@ -1,0 +1,22 @@
+branch-defaults:
+  master:
+    environment: null
+    group_suffix: null
+environment-defaults:
+  trendle-dev:
+    branch: master
+    repository: trendle
+global:
+  application_name: trendle
+  branch: master
+  default_ec2_keyname: vockey
+  default_platform: Node.js 16 running on 64bit Amazon Linux 2
+  default_region: us-east-1
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: default
+  repository: trendle
+  sc: git
+  workspace_type: Application
